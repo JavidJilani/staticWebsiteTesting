@@ -11,4 +11,4 @@ var dynamicContent = document.getElementById('dynamic-content');
 dynamicContent.textContent = "Today is " + currentDate.toDateString() + " and " + currentYear + " is " + completionPercentage.toFixed(2) + "% completed";
 
 var progressFill = document.getElementById('progressFill');
-progressFill.style.width = completionPercentage.toFixed(2) + '%';
+progressFill.style.width = completionPercentage.toFixed(4) + '%';
